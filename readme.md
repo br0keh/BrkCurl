@@ -8,7 +8,7 @@ Classe criada com o objetivo de facilitar a criação de requisições e evitar 
 
 * sendRequest
   - Parâmetros:
-    (string url, bool[int] post, string postfields, bool[int] cookies, string cookiesfile, array header)
+    (_string_ url, _bool[int]_ post, _string_ postfields, _bool[int]_ cookies, _string_ cookiesfile, _array_ header)
     * $url: Url da requisição [string url]
     * $post: Define se vai haver requisição POST ou não [int (0 ou 1)]
     * $postfields (Se $post == 1): Conteúdo da requisição [string postdata]
@@ -18,7 +18,7 @@ Classe criada com o objetivo de facilitar a criação de requisições e evitar 
 
 * getToken
   - Parâmetros:
-    (string data, string antes, string depois)
+    (_string_ data, _string_ antes, _string_ depois)
     * $data: Variável que guarda a resposta da requisição (curl_exec)
     * $antes: O que vem antes do Token em si
     * $depois: O que vem depois do Token
