@@ -6,8 +6,8 @@ Classe criada com o objetivo de facilitar a criação de requisições e evitar 
 
 ## Mini-documentação:
 
-- sendRequest
- - Parâmetros:
+* sendRequest
+  - Parâmetros:
     (string url, bool[int] post, string postfields, bool[int] cookies, string cookiesfile, array header)
     * $url: Url da requisição [string url]
     * $post: Define se vai haver requisição POST ou não [int (0 ou 1)]
@@ -16,8 +16,8 @@ Classe criada com o objetivo de facilitar a criação de requisições e evitar 
     * $cookiesfile (Se $cookies == 1): Caminho do arquivo que vão ser salvos/lidos os cookies [string caminho]
     * $header: HTTPHeader (Accept, Referer, User-Agent, etc.) [array(of string) header]
 
-- getToken
- - Parâmetros:
+* getToken
+  - Parâmetros:
     (string data, string antes, string depois)
     * $data: Variável que guarda a resposta da requisição (curl_exec)
     * $antes: O que vem antes do Token em si
