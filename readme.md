@@ -12,8 +12,7 @@ Classe criada com o objetivo de facilitar a criação de requisições e evitar 
 * getToken
     (**string** data, **string** antes, **string** depois)
     
-
-  ```php
+```php
 <?php
 // Inclui a classe
 require 'BrkCurl.Class.php';
