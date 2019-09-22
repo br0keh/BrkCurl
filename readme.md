@@ -1,7 +1,7 @@
 
 # BrkCurl
 
-create http requestss
+create http requests
 
 ## Mini-documentação:
 
